@@ -25,7 +25,7 @@ public class Solution {
             }
         }
         swap(nums, val, countSwap);
-        System.out.println(Arrays.toString(nums));
+        // System.out.println(Arrays.toString(nums));
         return k;
     }
 
