@@ -6,8 +6,8 @@ public class Solution {
     }
 
     public static int jump(int[] nums) {
-    
-        
+        // TODO
+        return -1;
     }
 
 }
