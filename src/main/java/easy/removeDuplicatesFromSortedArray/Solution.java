@@ -20,7 +20,7 @@ public class Solution {
                 k++;
             } 
         }
-        // System.out.println(Arrays.toString(nums));
+        System.out.println(Arrays.toString(nums));
         return k;
     }
 
