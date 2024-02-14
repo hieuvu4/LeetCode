@@ -9,7 +9,6 @@ public class Solution {
 
     public static int lengthOfLastWord(String s) {
         String[] sArr = s.split(" ");
-        String lastString = sArr[sArr.length-1];
-        return lastString.length();
+        return sArr[sArr.length-1].length();
     }
 }
