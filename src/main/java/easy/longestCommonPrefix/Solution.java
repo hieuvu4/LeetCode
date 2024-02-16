@@ -1,7 +1,5 @@
 package easy.longestCommonPrefix;
 
-import java.util.stream.Stream;
-
 public class Solution {
     
     public static void main(String[] args) {
