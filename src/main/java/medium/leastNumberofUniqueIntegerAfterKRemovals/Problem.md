@@ -1,4 +1,4 @@
-# Least Numer of Unique Integer After K Removals
+# Least Number of Unique Integer After K Removals
 
 Given an array of integers `arr` and an integer `k`. Find the *least number of unique integers* after removing exactly `k` elements.
 

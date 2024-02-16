@@ -21,14 +21,13 @@ public class Solution {
             map.put(x, map.getOrDefault(x, 0)+1);
         }
 
+        // put in a list for sorting by value
         List<Map.Entry<Integer, Integer>> list = new ArrayList<>(map.entrySet());
 
-        System.out.println(map.entrySet());
-        System.out.println(list);
         list.sort((a, b) -> a.getValue() - b.getValue());
-        System.out.println(list);
 
-        for (Map.Entry<Integer, Integer> entry : list) {
+        for(Map.Entry<Integer, Integer> entry : list) {
+            // if less than k, remove element, else break because if we decrease, the element is still there
             if (entry.getValue() <= k) {
                 k -= entry.getValue();
                 map.remove(entry.getKey());
