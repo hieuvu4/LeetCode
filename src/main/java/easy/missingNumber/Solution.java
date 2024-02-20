@@ -18,6 +18,6 @@ public class Solution {
                 return i;
             } 
         }
-        return nums[nums.length-1];
+        return nums.length;
     }
 }
