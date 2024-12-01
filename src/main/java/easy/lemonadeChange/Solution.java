@@ -1,8 +1,5 @@
 package easy.lemonadeChange;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Solution {
     public boolean lemonadeChange(int[] bills) {
         int five_dollars = 0, ten_dollars = 0;
